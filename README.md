@@ -28,11 +28,9 @@ To achieve the above target, the authors define a new octave convolution to repl
 
 ![img](https://github.com/Vilinz/octconv/blob/master/images/3.png?raw=true)
 
-So, the output ![img](file:///C:/temp/msohtmlclip1/01/clip_image013.png) of the Octave Convolution using average pooling for down-sampling as:
+So, the output ![img](https://github.com/Vilinz/octconv/blob/master/images/9.png?raw=true) of the Octave Convolution using average pooling for down-sampling as:
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image015.png)
-
-![img](file:///C:/temp/msohtmlclip1/01/clip_image017.png)
+![img](https://github.com/Vilinz/octconv/blob/master/images/10.png?raw=true)
 
 Octave Convolution is a plug-and-play replacement for the vanilla convolution, so it can be applied to any model without changing the struct of the model.
 
