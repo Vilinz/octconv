@@ -1,0 +1,600 @@
+Epoch: 1/150
+Loss: 1.9151
+evaluating...
+acc 0.4244
+Epoch: 2/150
+Loss: 1.6054
+evaluating...
+acc 0.4946
+Epoch: 3/150
+Loss: 1.3830
+evaluating...
+acc 0.5314
+Epoch: 4/150
+Loss: 1.2418
+evaluating...
+acc 0.6131
+Epoch: 5/150
+Loss: 1.1210
+evaluating...
+acc 0.6364
+Epoch: 6/150
+Loss: 1.0287
+evaluating...
+acc 0.6478
+Epoch: 7/150
+Loss: 0.9663
+evaluating...
+acc 0.6613
+Epoch: 8/150
+Loss: 0.9190
+evaluating...
+acc 0.6806
+Epoch: 9/150
+Loss: 0.8728
+evaluating...
+acc 0.6925
+Epoch: 10/150
+Loss: 0.8435
+evaluating...
+acc 0.7128
+Epoch: 11/150
+Loss: 0.8099
+evaluating...
+acc 0.7141
+Epoch: 12/150
+Loss: 0.7901
+evaluating...
+acc 0.7182
+Epoch: 13/150
+Loss: 0.7636
+evaluating...
+acc 0.7187
+Epoch: 14/150
+Loss: 0.7386
+evaluating...
+acc 0.7527
+Epoch: 15/150
+Loss: 0.7078
+evaluating...
+acc 0.7507
+Epoch: 16/150
+Loss: 0.6935
+evaluating...
+acc 0.744
+Epoch: 17/150
+Loss: 0.6827
+evaluating...
+acc 0.7594
+Epoch: 18/150
+Loss: 0.6557
+evaluating...
+acc 0.7678
+Epoch: 19/150
+Loss: 0.6402
+evaluating...
+acc 0.7454
+Epoch: 20/150
+Loss: 0.6274
+evaluating...
+acc 0.7715
+Epoch: 21/150
+Loss: 0.6146
+evaluating...
+acc 0.7719
+Epoch: 22/150
+Loss: 0.6013
+evaluating...
+acc 0.7794
+Epoch: 23/150
+Loss: 0.5920
+evaluating...
+acc 0.7815
+Epoch: 24/150
+Loss: 0.5838
+evaluating...
+acc 0.7809
+Epoch: 25/150
+Loss: 0.5661
+evaluating...
+acc 0.7684
+Epoch: 26/150
+Loss: 0.5595
+evaluating...
+acc 0.7737
+Epoch: 27/150
+Loss: 0.5530
+evaluating...
+acc 0.7854
+Epoch: 28/150
+Loss: 0.5466
+evaluating...
+acc 0.7846
+Epoch: 29/150
+Loss: 0.5365
+evaluating...
+acc 0.7825
+Epoch: 30/150
+Loss: 0.5288
+evaluating...
+acc 0.783
+Epoch: 31/150
+Loss: 0.5228
+evaluating...
+acc 0.7922
+Epoch: 32/150
+Loss: 0.5191
+evaluating...
+acc 0.7953
+Epoch: 33/150
+Loss: 0.5178
+evaluating...
+acc 0.7882
+Epoch: 34/150
+Loss: 0.5070
+evaluating...
+acc 0.7827
+Epoch: 35/150
+Loss: 0.5057
+evaluating...
+acc 0.7781
+Epoch: 36/150
+Loss: 0.4942
+evaluating...
+acc 0.7967
+Epoch: 37/150
+Loss: 0.4957
+evaluating...
+acc 0.7969
+Epoch: 38/150
+Loss: 0.4971
+evaluating...
+acc 0.7887
+Epoch: 39/150
+Loss: 0.4833
+evaluating...
+acc 0.7984
+Epoch: 40/150
+Loss: 0.4798
+evaluating...
+acc 0.7922
+Epoch: 41/150
+Loss: 0.4817
+evaluating...
+acc 0.799
+Epoch: 42/150
+Loss: 0.4764
+evaluating...
+acc 0.8
+Epoch: 43/150
+Loss: 0.4730
+evaluating...
+acc 0.8043
+Epoch: 44/150
+Loss: 0.4698
+evaluating...
+acc 0.8032
+Epoch: 45/150
+Loss: 0.4646
+evaluating...
+acc 0.8163
+Epoch: 46/150
+Loss: 0.4636
+evaluating...
+acc 0.8068
+Epoch: 47/150
+Loss: 0.4556
+evaluating...
+acc 0.7876
+Epoch: 48/150
+Loss: 0.4594
+evaluating...
+acc 0.7881
+Epoch: 49/150
+Loss: 0.4551
+evaluating...
+acc 0.808
+Epoch: 50/150
+Loss: 0.4525
+evaluating...
+acc 0.7974
+Epoch: 51/150
+Loss: 0.4549
+evaluating...
+acc 0.8024
+Epoch: 52/150
+Loss: 0.4450
+evaluating...
+acc 0.8032
+Epoch: 53/150
+Loss: 0.4416
+evaluating...
+acc 0.797
+Epoch: 54/150
+Loss: 0.4431
+evaluating...
+acc 0.7946
+Epoch: 55/150
+Loss: 0.4390
+evaluating...
+acc 0.8119
+Epoch: 56/150
+Loss: 0.4408
+evaluating...
+acc 0.8045
+Epoch: 57/150
+Loss: 0.4360
+evaluating...
+acc 0.8115
+Epoch: 58/150
+Loss: 0.4330
+evaluating...
+acc 0.8087
+Epoch: 59/150
+Loss: 0.4364
+evaluating...
+acc 0.8074
+Epoch: 60/150
+Loss: 0.4265
+evaluating...
+acc 0.8133
+Epoch: 61/150
+Loss: 0.4300
+evaluating...
+acc 0.8072
+Epoch: 62/150
+Loss: 0.4226
+evaluating...
+acc 0.8016
+Epoch: 63/150
+Loss: 0.4268
+evaluating...
+acc 0.8038
+Epoch: 64/150
+Loss: 0.4223
+evaluating...
+acc 0.8079
+Epoch: 65/150
+Loss: 0.4163
+evaluating...
+acc 0.8008
+Epoch: 66/150
+Loss: 0.4203
+evaluating...
+acc 0.8
+Epoch: 67/150
+Loss: 0.4176
+evaluating...
+acc 0.8136
+Epoch: 68/150
+Loss: 0.4129
+evaluating...
+acc 0.8141
+Epoch: 69/150
+Loss: 0.4178
+evaluating...
+acc 0.81
+Epoch: 70/150
+Loss: 0.4142
+evaluating...
+acc 0.7919
+Epoch: 71/150
+Loss: 0.4148
+evaluating...
+acc 0.8085
+Epoch: 72/150
+Loss: 0.4154
+evaluating...
+acc 0.8101
+Epoch: 73/150
+Loss: 0.4126
+evaluating...
+acc 0.8101
+Epoch: 74/150
+Loss: 0.4041
+evaluating...
+acc 0.8153
+Epoch: 75/150
+Loss: 0.4096
+evaluating...
+acc 0.817
+Epoch: 76/150
+Loss: 0.4043
+evaluating...
+acc 0.8089
+Epoch: 77/150
+Loss: 0.4032
+evaluating...
+acc 0.813
+Epoch: 78/150
+Loss: 0.4031
+evaluating...
+acc 0.8143
+Epoch: 79/150
+Loss: 0.4025
+evaluating...
+acc 0.8062
+Epoch: 80/150
+Loss: 0.4067
+evaluating...
+acc 0.8097
+Epoch: 81/150
+Loss: 0.3994
+evaluating...
+acc 0.8075
+Epoch: 82/150
+Loss: 0.4024
+evaluating...
+acc 0.7995
+Epoch: 83/150
+Loss: 0.4004
+evaluating...
+acc 0.7995
+Epoch: 84/150
+Loss: 0.3974
+evaluating...
+acc 0.8079
+Epoch: 85/150
+Loss: 0.3982
+evaluating...
+acc 0.8016
+Epoch: 86/150
+Loss: 0.3908
+evaluating...
+acc 0.7984
+Epoch: 87/150
+Loss: 0.3924
+evaluating...
+acc 0.8097
+Epoch: 88/150
+Loss: 0.3962
+evaluating...
+acc 0.8162
+Epoch: 89/150
+Loss: 0.3906
+evaluating...
+acc 0.8233
+Epoch: 90/150
+Loss: 0.3904
+evaluating...
+acc 0.8058
+Epoch: 91/150
+Loss: 0.3885
+evaluating...
+acc 0.8051
+Epoch: 92/150
+Loss: 0.3952
+evaluating...
+acc 0.8093
+Epoch: 93/150
+Loss: 0.3868
+evaluating...
+acc 0.8159
+Epoch: 94/150
+Loss: 0.3872
+evaluating...
+acc 0.8103
+Epoch: 95/150
+Loss: 0.3903
+evaluating...
+acc 0.8017
+Epoch: 96/150
+Loss: 0.3859
+evaluating...
+acc 0.8163
+Epoch: 97/150
+Loss: 0.3809
+evaluating...
+acc 0.8094
+Epoch: 98/150
+Loss: 0.3870
+evaluating...
+acc 0.8127
+Epoch: 99/150
+Loss: 0.3836
+evaluating...
+acc 0.803
+Epoch: 100/150
+Loss: 0.3882
+evaluating...
+acc 0.8155
+Epoch: 101/150
+Loss: 0.3783
+evaluating...
+acc 0.8165
+Epoch: 102/150
+Loss: 0.3809
+evaluating...
+acc 0.813
+Epoch: 103/150
+Loss: 0.3789
+evaluating...
+acc 0.8029
+Epoch: 104/150
+Loss: 0.3810
+evaluating...
+acc 0.7999
+Epoch: 105/150
+Loss: 0.3775
+evaluating...
+acc 0.8047
+Epoch: 106/150
+Loss: 0.3769
+evaluating...
+acc 0.8078
+Epoch: 107/150
+Loss: 0.3764
+evaluating...
+acc 0.8151
+Epoch: 108/150
+Loss: 0.3770
+evaluating...
+acc 0.8168
+Epoch: 109/150
+Loss: 0.3836
+evaluating...
+acc 0.8179
+Epoch: 110/150
+Loss: 0.3718
+evaluating...
+acc 0.7979
+Epoch: 111/150
+Loss: 0.3759
+evaluating...
+acc 0.8176
+Epoch: 112/150
+Loss: 0.3734
+evaluating...
+acc 0.8207
+Epoch: 113/150
+Loss: 0.3743
+evaluating...
+acc 0.8183
+Epoch: 114/150
+Loss: 0.3692
+evaluating...
+acc 0.817
+Epoch: 115/150
+Loss: 0.3737
+evaluating...
+acc 0.8082
+Epoch: 116/150
+Loss: 0.3720
+evaluating...
+acc 0.8092
+Epoch: 117/150
+Loss: 0.3755
+evaluating...
+acc 0.8077
+Epoch: 118/150
+Loss: 0.3670
+evaluating...
+acc 0.8092
+Epoch: 119/150
+Loss: 0.3726
+evaluating...
+acc 0.8057
+Epoch: 120/150
+Loss: 0.3715
+evaluating...
+acc 0.8167
+Epoch: 121/150
+Loss: 0.3689
+evaluating...
+acc 0.8096
+Epoch: 122/150
+Loss: 0.3650
+evaluating...
+acc 0.8114
+Epoch: 123/150
+Loss: 0.3651
+evaluating...
+acc 0.8083
+Epoch: 124/150
+Loss: 0.3696
+evaluating...
+acc 0.818
+Epoch: 125/150
+Loss: 0.3664
+evaluating...
+acc 0.824
+Epoch: 126/150
+Loss: 0.3625
+evaluating...
+acc 0.8207
+Epoch: 127/150
+Loss: 0.3685
+evaluating...
+acc 0.8243
+Epoch: 128/150
+Loss: 0.3640
+evaluating...
+acc 0.8144
+Epoch: 129/150
+Loss: 0.3636
+evaluating...
+acc 0.8141
+Epoch: 130/150
+Loss: 0.3627
+evaluating...
+acc 0.8098
+Epoch: 131/150
+Loss: 0.3661
+evaluating...
+acc 0.8062
+Epoch: 132/150
+Loss: 0.3659
+evaluating...
+acc 0.8119
+Epoch: 133/150
+Loss: 0.3664
+evaluating...
+acc 0.8152
+Epoch: 134/150
+Loss: 0.3663
+evaluating...
+acc 0.8204
+Epoch: 135/150
+Loss: 0.3667
+evaluating...
+acc 0.819
+Epoch: 136/150
+Loss: 0.3621
+evaluating...
+acc 0.8077
+Epoch: 137/150
+Loss: 0.3610
+evaluating...
+acc 0.8113
+Epoch: 138/150
+Loss: 0.3606
+evaluating...
+acc 0.8112
+Epoch: 139/150
+Loss: 0.3570
+evaluating...
+acc 0.8165
+Epoch: 140/150
+Loss: 0.3645
+evaluating...
+acc 0.8136
+Epoch: 141/150
+Loss: 0.3606
+evaluating...
+acc 0.8209
+Epoch: 142/150
+Loss: 0.3562
+evaluating...
+acc 0.8123
+Epoch: 143/150
+Loss: 0.3571
+evaluating...
+acc 0.8217
+Epoch: 144/150
+Loss: 0.3571
+evaluating...
+acc 0.8224
+Epoch: 145/150
+Loss: 0.3568
+evaluating...
+acc 0.8063
+Epoch: 146/150
+Loss: 0.3575
+evaluating...
+acc 0.8188
+Epoch: 147/150
+Loss: 0.3560
+evaluating...
+acc 0.8163
+Epoch: 148/150
+Loss: 0.3553
+evaluating...
+acc 0.82
+Epoch: 149/150
+Loss: 0.3542
+evaluating...
+acc 0.82
+Epoch: 150/150
+Loss: 0.3569
+evaluating...
+acc 0.8152
