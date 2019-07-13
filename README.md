@@ -16,17 +16,17 @@ In natural images, we can factorize them into higher frequencies which are encod
 
 Although Convolutional Neural Networks have already got excellent performance on many image classification or prediction tasks, they still have some inherent redundancy in dense model parameters and in the channel dimension of feature maps. Many researches have many experiments to change the structure of the network, however, they ignore the importance of the origin information of the train data. The authors are motivated by a mathematical theory which tells us that natural image can be decomposed into a low and a high spatial frequency part. Different parts have different information to describe the natural image. For example, the low spatial frequency component that describes the smoothly changing structure and a high spatial frequency component that describes the rapidly changing fine details as show in Figure(a). They map these two parts into different size of features maps. So, they can use less parameters to train the low spatial frequency and use more parameters to change the high spatial frequency but there are information communication between them.
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image003.jpg)
+![](https://github.com/Vilinz/octconv/blob/master/images/1.png?raw=true)
 
 ### **2.** **Method**
 
 To understand the method clearly, we have a simply discussion about spatial frequency. A natural image can be decomposed into a low and a high spatial frequency part as show in Figure(b). The high spatial describes the rapidly changing fine detail and the low spatial describes the smoothly changing structure. similarly, the output feature maps of a convolution layer can also be seen as a mixture of information at different frequency. Since the low spatial contains less information, we can do some compression to reduce spatial redundancy. In Octave Convolution, they do convolution on their own spatial frequency. In addition, there is information exchanging between the low spatial and the high spatial as show in Figure(d).
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image005.jpg)
+![img](https://github.com/Vilinz/octconv/blob/master/images/2.png?raw=true)
 
 To achieve the above target, the authors define a new octave convolution to replace the vanilla convolution due to differences in spatial resolution in the octave features, which is expected to not only effectively process the low-frequency and high-frequency parts in their corresponding frequency tensor, but also enable efficient communication between them. Since the size between the high spatial and the low spatial are different, when it comes to the inter-frequency communication, folding the up-sampling over the feature tensor ![img](file:///C:/temp/msohtmlclip1/01/clip_image007.png) or the down-sampling of the feature tensor ![img](file:///C:/temp/msohtmlclip1/01/clip_image009.png) into the convolution using following formulas is necessary. The procedure is as show below.
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image011.jpg)
+![img](https://github.com/Vilinz/octconv/blob/master/images/3.png?raw=true)
 
 So, the output ![img](file:///C:/temp/msohtmlclip1/01/clip_image013.png) of the Octave Convolution using average pooling for down-sampling as:
 
@@ -58,15 +58,15 @@ To compare the results with origin Resnet50, I train origin network firstly and 
 
 As the experiments in the paper, I set different ratios (0, 0.125, 0.25, 0.5, 0.75) of the low spatial. The experiment results I get are showed as follow. 
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image019.jpg)
+![img](https://github.com/Vilinz/octconv/blob/master/images/4.png?raw=true)
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image021.jpg)
+![img](https://github.com/Vilinz/octconv/blob/master/images/5.png?raw=true)
 
 We can see from the results that Resnet50 with Octave Convolution perform better than origin Resnet50 and when I set the proportion to 0.125, I get the best result in all the experiments I have done, which have the same conclusion as the experiments in the paper.
 
-To verify the importance of the information exchange, I ablate on down-sampling and inter-octave connectivity on CIFAR10 and compare the results. But I change the ratio into 0.125. The experiment results I get are as show.
+To verify the importance of the information exchange, I ablate on down-sampling and inter-octave connectivity on CIFAR10 and compare the results. But I change the ratio into 0.125. I find that Octave Convolution performs little better with both Low->High and High->Low information communication. The experiment results I get are as show.
 
-![img](file:///C:/temp/msohtmlclip1/01/clip_image023.jpg)
+![img](https://github.com/Vilinz/octconv/blob/master/images/6.png?raw=true)
 
  
 
@@ -77,7 +77,9 @@ To verify the importance of the information exchange, I ablate on down-sampling 
 |                             |           | √         |          |
 |                             | √         | √         |          |
 
- 
+ ![](https://github.com/Vilinz/octconv/blob/master/images/7.png?raw=true)
+
+![](https://github.com/Vilinz/octconv/blob/master/images/8.png?raw=true)
 
 ### **5.** **Conclusion**
 
